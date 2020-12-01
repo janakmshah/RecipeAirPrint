@@ -1,6 +1,6 @@
 # RecipeAirPrint
 
-[![CI Status](https://img.shields.io/travis/Janak Shah/RecipeAirPrint.svg?style=flat)](https://travis-ci.org/Janak Shah/RecipeAirPrint)
+[![CI Status](https://img.shields.io/travis/janakmshah/RecipeAirPrint.svg?style=flat)](https://travis-ci.org/janakmshah/RecipeAirPrint)
 [![Version](https://img.shields.io/cocoapods/v/RecipeAirPrint.svg?style=flat)](https://cocoapods.org/pods/RecipeAirPrint)
 [![License](https://img.shields.io/cocoapods/l/RecipeAirPrint.svg?style=flat)](https://cocoapods.org/pods/RecipeAirPrint)
 [![Platform](https://img.shields.io/cocoapods/p/RecipeAirPrint.svg?style=flat)](https://cocoapods.org/pods/RecipeAirPrint)
@@ -22,7 +22,7 @@ pod 'RecipeAirPrint'
 
 ## Author
 
-Janak Shah, janak.shah@cuvva.com
+[Janak Shah](https://janakshah.com)
 
 ## License
 
