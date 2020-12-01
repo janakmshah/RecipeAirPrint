@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		27E1C139F1D528EFA722D9A2 /* RecipeAirPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RecipeAirPrint.podspec; path = ../RecipeAirPrint.podspec; sourceTree = "<group>"; };
+		27E1C139F1D528EFA722D9A2 /* RecipeAirPrint.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RecipeAirPrint.podspec; path = ../RecipeAirPrint.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2A4E9E61A89A44233A7B6036 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3F7654C13ED00E1C38483A34 /* Pods-RecipeAirPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeAirPrint_Example.release.xcconfig"; path = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4B01FCD9BB62F5A8E3B93B36 /* Pods-RecipeAirPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecipeAirPrint_Example.debug.xcconfig"; path = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
