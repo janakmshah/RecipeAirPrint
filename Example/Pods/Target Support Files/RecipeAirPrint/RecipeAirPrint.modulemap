@@ -1,0 +1,6 @@
+framework module RecipeAirPrint {
+  umbrella header "RecipeAirPrint-umbrella.h"
+
+  export *
+  module * { export * }
+}

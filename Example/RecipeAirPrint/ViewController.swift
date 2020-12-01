@@ -7,17 +7,31 @@
 //
 
 import UIKit
+import RecipeAirPrint
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(button)
+        
+        button.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        button.contentEdgeInsets = UIEdgeInsets(top: 8, left: 16, bottom: 8, right: 16)
+        
+        button.addTarget(self, action: #selector(printAction), for: .touchUpInside)
+
+        button.setTitle("Test Print", for: .normal)
+        button.backgroundColor = .purple
+        button.layer.cornerRadius = 8
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func printAction() {
+        RecipeAirPrint.airPrint("Test")
     }
 
 }

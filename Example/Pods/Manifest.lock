@@ -1,0 +1,16 @@
+PODS:
+  - RecipeAirPrint (0.1.0)
+
+DEPENDENCIES:
+  - RecipeAirPrint (from `../`)
+
+EXTERNAL SOURCES:
+  RecipeAirPrint:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RecipeAirPrint: 9bf8731c3b74dc635cc74945af4ea13979cf0455
+
+PODFILE CHECKSUM: 235714a6d5fc9625af4cb1a578dfbb6d0dd7557f
+
+COCOAPODS: 1.10.0

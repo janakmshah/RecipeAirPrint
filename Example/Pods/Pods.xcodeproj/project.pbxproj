@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5BA0FF44E0E0DFF7A66ACBBA04EC7C /* Pods-RecipeAirPrint_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD1DB4C48B61A4286C576A2567976EC /* Pods-RecipeAirPrint_Tests-dummy.m */; };
+		423DD94AD1CDB711E4BA7C8B3A18178F /* Pods-RecipeAirPrint_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F69FE5980CC404C717B35F541EA202C /* Pods-RecipeAirPrint_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		431ABA2CA42E39A85E16CE1A17AD4487 /* Pods-RecipeAirPrint_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D1F91905AE15C9AC6D07CD3B35CCED /* Pods-RecipeAirPrint_Example-dummy.m */; };
+		686AF5C2BE053E29B7098CFFA0CF8ABB /* RecipeAirPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE36E12DB460681CEB778FFF582D119 /* RecipeAirPrint.swift */; };
+		709F8DC6DFD42C507A92FCFB8AD8EF44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7F993FDC7A417F8FF01B13AB28D4B99D /* RecipeAirPrint-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5DD65CC08A0CBF112DA71F282D8092 /* RecipeAirPrint-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853C740082A0872CE2AD15C956A3C28A /* Pods-RecipeAirPrint_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09609C31E7300F186136666DC159F4E7 /* Pods-RecipeAirPrint_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A962CE4AC6DAEDCF82D0D3AB08A5948A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF2707CF0BF34B4CF2E0778D5DFD7894 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DF16E53CD9249B463DB8D6894CFC1DA0 /* RecipeAirPrint-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB138E0AB5051D637E6DCB29D7F962F /* RecipeAirPrint-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		826E1F9060148219F9EF870C09F990A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D57E4E20957B82C2A2856C47409509F;
+			remoteInfo = RecipeAirPrint;
+		};
+		A1AA20FA4EAD7F5EA852C7DBF8326523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 712227EC05474C48AA19C3662ABC69B0;
+			remoteInfo = "Pods-RecipeAirPrint_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FE57899EA28BF17033D8E4D984E130 /* Pods-RecipeAirPrint_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeAirPrint_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		09609C31E7300F186136666DC159F4E7 /* Pods-RecipeAirPrint_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecipeAirPrint_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0BE36E12DB460681CEB778FFF582D119 /* RecipeAirPrint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecipeAirPrint.swift; path = RecipeAirPrint/Classes/RecipeAirPrint.swift; sourceTree = "<group>"; };
+		0C5DD65CC08A0CBF112DA71F282D8092 /* RecipeAirPrint-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecipeAirPrint-umbrella.h"; sourceTree = "<group>"; };
+		0E94333C9C2BB0658F10E77BAE93F024 /* Pods-RecipeAirPrint_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeAirPrint_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2613D7E47941C9DF9C4EE5FC6C2E69C8 /* RecipeAirPrint-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RecipeAirPrint-Info.plist"; sourceTree = "<group>"; };
+		2D8B02DCC759F6D13746772265CA3DA2 /* RecipeAirPrint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecipeAirPrint.debug.xcconfig; sourceTree = "<group>"; };
+		30D083A205B8FF6837405E8EB6CD2848 /* Pods_RecipeAirPrint_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeAirPrint_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453E6B0F9D3972499F36900556EDBE5D /* Pods-RecipeAirPrint_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecipeAirPrint_Example.modulemap"; sourceTree = "<group>"; };
+		4F69FE5980CC404C717B35F541EA202C /* Pods-RecipeAirPrint_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecipeAirPrint_Example-umbrella.h"; sourceTree = "<group>"; };
+		66B9817482D54AD94AC974CD88C0F922 /* RecipeAirPrint.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RecipeAirPrint.modulemap; sourceTree = "<group>"; };
+		6A6EA28F93000DA38CFA3AB588096B92 /* Pods-RecipeAirPrint_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeAirPrint_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		734E2B768EEC5C3F1321DF897C0EBD4D /* Pods-RecipeAirPrint_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeAirPrint_Example.release.xcconfig"; sourceTree = "<group>"; };
+		78F33BA18E1D5AA0531F4C4F2C083900 /* Pods-RecipeAirPrint_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecipeAirPrint_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		91D1F91905AE15C9AC6D07CD3B35CCED /* Pods-RecipeAirPrint_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipeAirPrint_Example-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A39A6F50C65AAE0EEB47064AB5A34657 /* Pods-RecipeAirPrint_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RecipeAirPrint_Tests.modulemap"; sourceTree = "<group>"; };
+		A68B859BDCBB8C38EF9A9A6BDA7BCB62 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AC1B90F7AD2A68609F9718EE74AD5215 /* RecipeAirPrint.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RecipeAirPrint.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEB138E0AB5051D637E6DCB29D7F962F /* RecipeAirPrint-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecipeAirPrint-dummy.m"; sourceTree = "<group>"; };
+		B751DAB917DA357F8A42DF7928D28158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B7D1D3110986F82DCE801EFAEB92CC1A /* Pods-RecipeAirPrint_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecipeAirPrint_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C681B11DAE034C25A59D0CC819767EDD /* Pods-RecipeAirPrint_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeAirPrint_Example-Info.plist"; sourceTree = "<group>"; };
+		C7DCC821279B7764AB72B32E4D9B4E68 /* Pods-RecipeAirPrint_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipeAirPrint_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CCD1DB4C48B61A4286C576A2567976EC /* Pods-RecipeAirPrint_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecipeAirPrint_Tests-dummy.m"; sourceTree = "<group>"; };
+		D30B1D3227C1C44751B737603B71A04A /* Pods_RecipeAirPrint_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecipeAirPrint_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D4A59BFF34599316491DC74AD0D659 /* Pods-RecipeAirPrint_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeAirPrint_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D726300A6BD6C370EC6258BAB281AEEA /* RecipeAirPrint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecipeAirPrint.release.xcconfig; sourceTree = "<group>"; };
+		DF54CDD4AA291954E9678D8442117461 /* RecipeAirPrint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecipeAirPrint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B03894CEF5766A2A482296B99E5CCA /* Pods-RecipeAirPrint_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecipeAirPrint_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E62FD795967C61FD2100DB379B51D564 /* RecipeAirPrint-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecipeAirPrint-prefix.pch"; sourceTree = "<group>"; };
+		E683B39189597F241A0E560218848B3B /* Pods-RecipeAirPrint_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecipeAirPrint_Tests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E81EA89440CF920BE503B8629A54FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A962CE4AC6DAEDCF82D0D3AB08A5948A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283653CCD89795A07FD0A19623DB197F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2707CF0BF34B4CF2E0778D5DFD7894 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B43B160FD26E6C2E3A686135DF12ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709F8DC6DFD42C507A92FCFB8AD8EF44 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DA161543AE613475096EF7F37D1F693 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D02CB706603DCFEB30D8D930FB0C74BD /* Pods-RecipeAirPrint_Example */,
+				B2D3E49B51EF35E5EB3CEE7C00A7D05D /* Pods-RecipeAirPrint_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3B3DDD439CFB0A8EC91A53329A540143 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C711F7AA0EAFB777F63AD476B6424A7 /* RecipeAirPrint */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		951471656F1E5D6465F1E27EBB4E30ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A68B859BDCBB8C38EF9A9A6BDA7BCB62 /* LICENSE */,
+				B751DAB917DA357F8A42DF7928D28158 /* README.md */,
+				AC1B90F7AD2A68609F9718EE74AD5215 /* RecipeAirPrint.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9C711F7AA0EAFB777F63AD476B6424A7 /* RecipeAirPrint */ = {
+			isa = PBXGroup;
+			children = (
+				0BE36E12DB460681CEB778FFF582D119 /* RecipeAirPrint.swift */,
+				951471656F1E5D6465F1E27EBB4E30ED /* Pod */,
+				AAE7539DC9ED9C33970929354D4472BC /* Support Files */,
+			);
+			name = RecipeAirPrint;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AAE7539DC9ED9C33970929354D4472BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66B9817482D54AD94AC974CD88C0F922 /* RecipeAirPrint.modulemap */,
+				AEB138E0AB5051D637E6DCB29D7F962F /* RecipeAirPrint-dummy.m */,
+				2613D7E47941C9DF9C4EE5FC6C2E69C8 /* RecipeAirPrint-Info.plist */,
+				E62FD795967C61FD2100DB379B51D564 /* RecipeAirPrint-prefix.pch */,
+				0C5DD65CC08A0CBF112DA71F282D8092 /* RecipeAirPrint-umbrella.h */,
+				2D8B02DCC759F6D13746772265CA3DA2 /* RecipeAirPrint.debug.xcconfig */,
+				D726300A6BD6C370EC6258BAB281AEEA /* RecipeAirPrint.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RecipeAirPrint";
+			sourceTree = "<group>";
+		};
+		B2D3E49B51EF35E5EB3CEE7C00A7D05D /* Pods-RecipeAirPrint_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A39A6F50C65AAE0EEB47064AB5A34657 /* Pods-RecipeAirPrint_Tests.modulemap */,
+				E0B03894CEF5766A2A482296B99E5CCA /* Pods-RecipeAirPrint_Tests-acknowledgements.markdown */,
+				0E94333C9C2BB0658F10E77BAE93F024 /* Pods-RecipeAirPrint_Tests-acknowledgements.plist */,
+				CCD1DB4C48B61A4286C576A2567976EC /* Pods-RecipeAirPrint_Tests-dummy.m */,
+				E683B39189597F241A0E560218848B3B /* Pods-RecipeAirPrint_Tests-Info.plist */,
+				09609C31E7300F186136666DC159F4E7 /* Pods-RecipeAirPrint_Tests-umbrella.h */,
+				6A6EA28F93000DA38CFA3AB588096B92 /* Pods-RecipeAirPrint_Tests.debug.xcconfig */,
+				78F33BA18E1D5AA0531F4C4F2C083900 /* Pods-RecipeAirPrint_Tests.release.xcconfig */,
+			);
+			name = "Pods-RecipeAirPrint_Tests";
+			path = "Target Support Files/Pods-RecipeAirPrint_Tests";
+			sourceTree = "<group>";
+		};
+		C9708BF96E2509772E886E50E3C3956B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30D083A205B8FF6837405E8EB6CD2848 /* Pods_RecipeAirPrint_Example.framework */,
+				D30B1D3227C1C44751B737603B71A04A /* Pods_RecipeAirPrint_Tests.framework */,
+				DF54CDD4AA291954E9678D8442117461 /* RecipeAirPrint.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				3B3DDD439CFB0A8EC91A53329A540143 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C9708BF96E2509772E886E50E3C3956B /* Products */,
+				2DA161543AE613475096EF7F37D1F693 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D02CB706603DCFEB30D8D930FB0C74BD /* Pods-RecipeAirPrint_Example */ = {
+			isa = PBXGroup;
+			children = (
+				453E6B0F9D3972499F36900556EDBE5D /* Pods-RecipeAirPrint_Example.modulemap */,
+				C7DCC821279B7764AB72B32E4D9B4E68 /* Pods-RecipeAirPrint_Example-acknowledgements.markdown */,
+				D5D4A59BFF34599316491DC74AD0D659 /* Pods-RecipeAirPrint_Example-acknowledgements.plist */,
+				91D1F91905AE15C9AC6D07CD3B35CCED /* Pods-RecipeAirPrint_Example-dummy.m */,
+				B7D1D3110986F82DCE801EFAEB92CC1A /* Pods-RecipeAirPrint_Example-frameworks.sh */,
+				C681B11DAE034C25A59D0CC819767EDD /* Pods-RecipeAirPrint_Example-Info.plist */,
+				4F69FE5980CC404C717B35F541EA202C /* Pods-RecipeAirPrint_Example-umbrella.h */,
+				04FE57899EA28BF17033D8E4D984E130 /* Pods-RecipeAirPrint_Example.debug.xcconfig */,
+				734E2B768EEC5C3F1321DF897C0EBD4D /* Pods-RecipeAirPrint_Example.release.xcconfig */,
+			);
+			name = "Pods-RecipeAirPrint_Example";
+			path = "Target Support Files/Pods-RecipeAirPrint_Example";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		80F0B5B9F275121760E9B311CE168280 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F993FDC7A417F8FF01B13AB28D4B99D /* RecipeAirPrint-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC37B2441E4C8134A8DD1DA4FBBE7F54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423DD94AD1CDB711E4BA7C8B3A18178F /* Pods-RecipeAirPrint_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDEFB403638DD22395FE4933596E872 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C740082A0872CE2AD15C956A3C28A /* Pods-RecipeAirPrint_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D57E4E20957B82C2A2856C47409509F /* RecipeAirPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 626C893B87D5733E4B80C47CFBBD3066 /* Build configuration list for PBXNativeTarget "RecipeAirPrint" */;
+			buildPhases = (
+				80F0B5B9F275121760E9B311CE168280 /* Headers */,
+				AD6D8A2739487878DAEA3463342139BB /* Sources */,
+				27E81EA89440CF920BE503B8629A54FB /* Frameworks */,
+				37F913579AB3019E99F7A9BB69DF65F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecipeAirPrint;
+			productName = RecipeAirPrint;
+			productReference = DF54CDD4AA291954E9678D8442117461 /* RecipeAirPrint.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		712227EC05474C48AA19C3662ABC69B0 /* Pods-RecipeAirPrint_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB643EEDC2D485B85933BA96769382DC /* Build configuration list for PBXNativeTarget "Pods-RecipeAirPrint_Example" */;
+			buildPhases = (
+				AC37B2441E4C8134A8DD1DA4FBBE7F54 /* Headers */,
+				A231E49F691DFA450C110FB7EF4BFCD7 /* Sources */,
+				9B43B160FD26E6C2E3A686135DF12ADF /* Frameworks */,
+				BFAAF5CF38FD18859DF56D66FA78647A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E797F43A23D81F5F3AE65E960B3C0987 /* PBXTargetDependency */,
+			);
+			name = "Pods-RecipeAirPrint_Example";
+			productName = "Pods-RecipeAirPrint_Example";
+			productReference = 30D083A205B8FF6837405E8EB6CD2848 /* Pods_RecipeAirPrint_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD810017BE182971AE70C4800C0AD448 /* Pods-RecipeAirPrint_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09E1AD318A252BA2CFFBD55205B5765C /* Build configuration list for PBXNativeTarget "Pods-RecipeAirPrint_Tests" */;
+			buildPhases = (
+				EDDEFB403638DD22395FE4933596E872 /* Headers */,
+				7F1C5F7B1E642A31626B1A5919C02E19 /* Sources */,
+				283653CCD89795A07FD0A19623DB197F /* Frameworks */,
+				3350E3E37BC573250C85694F0CA33E12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2938E97DCC2E920BE3383B3E1BFB1E2B /* PBXTargetDependency */,
+			);
+			name = "Pods-RecipeAirPrint_Tests";
+			productName = "Pods-RecipeAirPrint_Tests";
+			productReference = D30B1D3227C1C44751B737603B71A04A /* Pods_RecipeAirPrint_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C9708BF96E2509772E886E50E3C3956B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				712227EC05474C48AA19C3662ABC69B0 /* Pods-RecipeAirPrint_Example */,
+				CD810017BE182971AE70C4800C0AD448 /* Pods-RecipeAirPrint_Tests */,
+				3D57E4E20957B82C2A2856C47409509F /* RecipeAirPrint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3350E3E37BC573250C85694F0CA33E12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37F913579AB3019E99F7A9BB69DF65F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAAF5CF38FD18859DF56D66FA78647A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1C5F7B1E642A31626B1A5919C02E19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5BA0FF44E0E0DFF7A66ACBBA04EC7C /* Pods-RecipeAirPrint_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A231E49F691DFA450C110FB7EF4BFCD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431ABA2CA42E39A85E16CE1A17AD4487 /* Pods-RecipeAirPrint_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD6D8A2739487878DAEA3463342139BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF16E53CD9249B463DB8D6894CFC1DA0 /* RecipeAirPrint-dummy.m in Sources */,
+				686AF5C2BE053E29B7098CFFA0CF8ABB /* RecipeAirPrint.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2938E97DCC2E920BE3383B3E1BFB1E2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RecipeAirPrint_Example";
+			target = 712227EC05474C48AA19C3662ABC69B0 /* Pods-RecipeAirPrint_Example */;
+			targetProxy = A1AA20FA4EAD7F5EA852C7DBF8326523 /* PBXContainerItemProxy */;
+		};
+		E797F43A23D81F5F3AE65E960B3C0987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RecipeAirPrint;
+			target = 3D57E4E20957B82C2A2856C47409509F /* RecipeAirPrint */;
+			targetProxy = 826E1F9060148219F9EF870C09F990A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A54D8A554E45275DD688CBD842ADF24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78F33BA18E1D5AA0531F4C4F2C083900 /* Pods-RecipeAirPrint_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipeAirPrint_Tests/Pods-RecipeAirPrint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipeAirPrint_Tests/Pods-RecipeAirPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E1BD785772825B8EF6AA60E87853CC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 734E2B768EEC5C3F1321DF897C0EBD4D /* Pods-RecipeAirPrint_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E71D9B27822B77397DD5679956870F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6EA28F93000DA38CFA3AB588096B92 /* Pods-RecipeAirPrint_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipeAirPrint_Tests/Pods-RecipeAirPrint_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipeAirPrint_Tests/Pods-RecipeAirPrint_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC7747A04974A909DF8515E23617AA74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FE57899EA28BF17033D8E4D984E130 /* Pods-RecipeAirPrint_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RecipeAirPrint_Example/Pods-RecipeAirPrint_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0E54FF9084E58BDCEAFEA837B27A6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D726300A6BD6C370EC6258BAB281AEEA /* RecipeAirPrint.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecipeAirPrint/RecipeAirPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecipeAirPrint/RecipeAirPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecipeAirPrint/RecipeAirPrint.modulemap";
+				PRODUCT_MODULE_NAME = RecipeAirPrint;
+				PRODUCT_NAME = RecipeAirPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE6ECB14A36296599DB7E258B4C195BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8B02DCC759F6D13746772265CA3DA2 /* RecipeAirPrint.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RecipeAirPrint/RecipeAirPrint-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecipeAirPrint/RecipeAirPrint-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecipeAirPrint/RecipeAirPrint.modulemap";
+				PRODUCT_MODULE_NAME = RecipeAirPrint;
+				PRODUCT_NAME = RecipeAirPrint;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09E1AD318A252BA2CFFBD55205B5765C /* Build configuration list for PBXNativeTarget "Pods-RecipeAirPrint_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E71D9B27822B77397DD5679956870F6 /* Debug */,
+				3A54D8A554E45275DD688CBD842ADF24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		626C893B87D5733E4B80C47CFBBD3066 /* Build configuration list for PBXNativeTarget "RecipeAirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE6ECB14A36296599DB7E258B4C195BA /* Debug */,
+				C0E54FF9084E58BDCEAFEA837B27A6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB643EEDC2D485B85933BA96769382DC /* Build configuration list for PBXNativeTarget "Pods-RecipeAirPrint_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7747A04974A909DF8515E23617AA74 /* Debug */,
+				5E1BD785772825B8EF6AA60E87853CC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

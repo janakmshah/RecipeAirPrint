@@ -1,0 +1,22 @@
+{
+  "name": "RecipeAirPrint",
+  "version": "0.1.0",
+  "summary": "A short description of RecipeAirPrint.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Janak Shah/RecipeAirPrint",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Janak Shah": "janak.shah@cuvva.com"
+  },
+  "source": {
+    "git": "https://github.com/Janak Shah/RecipeAirPrint.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RecipeAirPrint/Classes/**/*"
+}
