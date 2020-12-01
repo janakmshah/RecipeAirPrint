@@ -34,7 +34,7 @@ public struct RecipeAirPrint {
     static func airPrint(_ html: String) {
         let printController = UIPrintInteractionController.shared
         let printInfo = UIPrintInfo(dictionary:nil)
-        printInfo.outputType = UIPrintInfoOutputType.general
+        printInfo.outputType = .general
         printInfo.jobName = "Recipe print job"
         printController.printInfo = printInfo
         let formatter = UIMarkupTextPrintFormatter(markupText: html)
