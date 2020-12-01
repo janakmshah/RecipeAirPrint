@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RecipeAirPrint_Example' do
+  pod 'RecipeAirPrint', :path => '../'
+
+  target 'RecipeAirPrint_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
