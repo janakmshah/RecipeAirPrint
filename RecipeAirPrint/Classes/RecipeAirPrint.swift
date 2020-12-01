@@ -29,7 +29,6 @@ public struct RecipeAirPrint {
         """
         
         airPrint(htmlString)
-        
     }
     
     static func airPrint(_ html: String) {
