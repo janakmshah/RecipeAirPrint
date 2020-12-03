@@ -1,7 +1,7 @@
 
 public struct RecipeAirPrint {
     
-    public static func airPrint(name: String, description: String, ingredients: [String], method: [String], servings: String, calories: String, netCarbs: String, fat: String, protein: String) {
+    public static func airPrint(name: String, description: String, ingredients: [String], method: [String], footnoteHTML: String?) {
         
         let htmlString = """
         <!DOCTYPE html><html><body style="font-family:avenir; font-size:11px">
@@ -17,14 +17,7 @@ public struct RecipeAirPrint {
                 <ol>
                     <li>\(method.joined(separator: "</li><li>"))</li>
                 </ol>
-                <hr>
-                <h3>Nutrition</h3>
-                <p>Servings: \(servings)</br>
-                    Calories: \(calories) per serving</br>
-                    Net Carbs: \(netCarbs)g per serving</br>
-                    Fat: \(fat)g per serving</br>
-                    Protein: \(protein)g per serving
-                </p>
+                \(footnoteHTML ?? "")
         </body></html>
         """
         

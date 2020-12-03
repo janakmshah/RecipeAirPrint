@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RecipeAirPrint'
-  s.version          = '1.0.2'
+  s.version          = '1.1.1'
   s.summary          = 'Simple library to print recipes using AirPrint'
 
   s.description      = 'A simple library to print recipes using AirPrint'

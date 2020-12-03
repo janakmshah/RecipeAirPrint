@@ -31,7 +31,19 @@ class ViewController: UIViewController {
     }
 
     @objc func printAction() {
-        RecipeAirPrint.airPrint(name: "Recipe name", description: "Recipe description", ingredients: ["1 ingredient", "2 ingredient"], method: ["Method", "Blah blah"], servings: "6", calories: "300", netCarbs: "4", fat: "8", protein: "12")
+        
+        let nutrition = """
+        <hr>
+        <h3>Nutrition</h3>
+        <p>Servings: 6</br>
+            Calories: 300 per serving</br>
+            Net Carbs: 4g per serving</br>
+            Fat: 8g per serving</br>
+            Protein: 12g per serving
+        </p>
+        """
+        
+        RecipeAirPrint.airPrint(name: "Recipe name", description: "Recipe description", ingredients: ["1 ingredient", "2 ingredient"], method: ["Method", "Blah blah"], footnoteHTML: nutrition)
     }
 
 }
